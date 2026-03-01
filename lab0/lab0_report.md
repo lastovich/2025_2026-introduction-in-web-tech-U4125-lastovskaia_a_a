@@ -14,11 +14,12 @@ Date of finished:
 ## Подготовка репозитория и конфигурации, установка git, git clone
 Создала новый репозиторий, воспользовалась автоматическим соданием файлов конфигурации.
 Немного вспомнила, как работать с PowerShell, запустила установку Git for Windows.  После установки PowerShell заругался на проверку версии    
-PS D:\Git Labs> git --version
+PS D:\Git Labs> git --version    
 git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
 spelling of the name, or if a path was included, verify that the path is correct and try again.
 At line:1 char:1    
 В Git Bash настроила user.name и user.email, перешла в директорию для клонирования и склонировала репозиторий.  
 <img width="443" height="377" alt="Capture" src="https://github.com/user-attachments/assets/e788c3b9-fc8c-43ba-9082-f8d7eeed8e65" />
+
 
 
