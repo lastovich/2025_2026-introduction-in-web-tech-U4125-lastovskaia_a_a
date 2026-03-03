@@ -13,6 +13,6 @@ py --verion
 <img width="383" height="180" alt="Capture1" src="https://github.com/user-attachments/assets/efa8e4cf-71b2-4212-a17e-edf33084ab0c" />  
 <img width="281" height="49" alt="Capture2" src="https://github.com/user-attachments/assets/5fe12e59-411f-4a21-8545-f98c00c073ff" />    
 В проекте создались:
-*файл YAML-конфигурации, который будет отвечать за название, навигацию и тему сайта
-*шаблон главной страницы
+* файл YAML-конфигурации, который будет отвечать за название, навигацию и тему сайта
+* шаблон главной страницы
 
