@@ -15,4 +15,15 @@ py --verion
 В проекте создались:
 * файл YAML-конфигурации, который будет отвечать за название, навигацию и тему сайта
 * шаблон главной страницы
+Чуть не забыла скачать mkdocs-material, исправила.
+### Настройка конфигурации
+#### Настройка mkdocs.yml
+Прописала базовые параметры, тему и навигациу в блокноте, вставила в mkdocs.yml:  
+<img width="655" height="325" alt="Capture" src="https://github.com/user-attachments/assets/e841a1e4-4bd3-4182-a8c7-ef8025801114" />  
+Запустила, чтобы взглянуть, что получается:  
+<img width="574" height="253" alt="Capture1" src="https://github.com/user-attachments/assets/6ac97866-0a3f-4597-a09c-1268363e4748" />  
+В браузере вот так выглядит:  
+<img width="925" height="445" alt="Capture2" src="https://github.com/user-attachments/assets/e5810079-3c7a-4fb8-b54f-b345cb0dcaba" />
+
+
 
