@@ -14,7 +14,7 @@ Date of finished: 16.03.2026
 * Изучение команд    
   ` docker run hello-world `   
   Запускает контейнер, судя по описанию - специально созданный для пробного запуска:  
-![Hello world image](lab1/Screenshots/Capture hello wrld.PNG)
+![Hello world image](Screenshots/Capture hello wrld.PNG)
   ` docker images ` отдает список локальных (скачанных из репозитория) образов        
   ` docker ps ` список запущенных контейнеров (сейчас пусто, потому что hello world останавливается после выполнения)    
   ` docker ps -a `  или -all, история запуска контейнеров
