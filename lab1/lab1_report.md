@@ -18,7 +18,7 @@ Date of finished: 16.03.2026
   ` docker images ` отдает список локальных (скачанных из репозитория) образов        
   ` docker ps ` список запущенных контейнеров (сейчас пусто, потому что hello world останавливается после выполнения)    
   ` docker ps -a `  или -all, история запуска контейнеров  
-![2](lab1/Screenshots/Capture1.PNG)    
+![2](Screenshots/Capture1.PNG)    
 * Работа с образами    
   ```
   docker pull ubuntu:latest
@@ -28,8 +28,8 @@ Date of finished: 16.03.2026
   exit
   ```    
 Скачался образ ubuntu, пронаблюдала, какую нагрзку показывал Docker Desktop за время установки curl. Container CPU usage поднялся до 100% из 800%. Exit остановил работу контейнера.  
-![3](lab1/Screenshots/Capt-ubuntu-bash.PNG)    
-![4](lab1/Screenshots/ubuntu-exit.PNG)     
+![3](Screenshots/Capt-ubuntu-bash.PNG)    
+![4](Screenshots/ubuntu-exit.PNG)     
 * Запуск веб-сервера
    ```
    docker run -d -p 8080:80 --name web-server nginx:alpine
@@ -38,11 +38,11 @@ Date of finished: 16.03.2026
    docker exec -it web-server sh
     ```
 При запуске контейнера веб сервера выскочило оповещение безопасности Windows, дала доступ для Docker Desktop Backend связь в частных и общественных сетях.  
-![5](lab1/Screenshots/localhost8080.PNG)  
+![5](Screenshots/localhost8080.PNG)  
 Подключилась к серверу с разных браузеров, наверное в логах об этом и речь (несколько GET).   
-![6](lab1/Screenshots/web-serv-logs.PNG)    
+![6](Screenshots/web-serv-logs.PNG)    
 Подключилась к запущенному контейнеру через PS, выполнила несколько комманд и вышла (контейнер остался активным):  
-![7](lab1/Screenshots/insideWebSrv.PNG)      
+![7](Screenshots/insideWebSrv.PNG)      
 
 * Управление контейнерами
  ```
@@ -52,7 +52,7 @@ Date of finished: 16.03.2026
  docker rmi nginx:alpine
  ```
 Проверила, что образ невозможно удалить, пока есть работающий с ним контейнер.   
-![8](lab1/Screenshots/ContainersCommands.PNG)  
+![8](Screenshots/ContainersCommands.PNG)  
 * Работа с томами
  ```
  docker volume create my-volume
@@ -62,6 +62,6 @@ Date of finished: 16.03.2026
  ```
 Проследила, что во вкладке Volumes был создан my-volume. При запуске контейнера volume-test в клиенте появился новый контейнер и статус тома сменился на in use (зеленая точка).  
 Убедилась, что удаление контейнера не затрагивает том. 
-![9](lab1/Screenshots/my-volumewFileNoContainer.PNG)    
+![9](Screenshots/my-volumewFileNoContainer.PNG)    
 Подключение нового контейнера к тому же тому возможно, сохраненный ранее файл при этом остается в томе. 
-![10](lab1/Screenshots/my-volume-test-new.PNG)  
+![10](Screenshots/my-volume-test-new.PNG)  
