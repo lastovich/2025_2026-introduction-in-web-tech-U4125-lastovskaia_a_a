@@ -23,5 +23,5 @@ Date of finished: 16.03.2026
 Успешно запущена на порту 3000.  Data Sources находятся под Connections, не Configuration.
 ## Troubles
 В попытках построить красивые графики перешла в веб интерфейс Prometheus, данные не собираются, хотя Node Exporter жив.
-😢 Оказывается , что для сбора метрик с Windows OS необходимо было поднять Windows Exporter, он бы сработал как target для Prometheus, и показал бы мне красивые графики.
+😢 Оказывается , что для сбора метрик с Windows OS необходимо было поднять Windows Exporter, он бы сработал как target для Prometheus, и показал бы мне красивые графики.  
 🏳️
