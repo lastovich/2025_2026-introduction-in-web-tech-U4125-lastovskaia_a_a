@@ -1,0 +1,42 @@
+site_name: Seashore  
+site_description: The world is your oyster
+site_author: Anna 
+
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: teal    # основной цвет
+    accent: light blue     # акцентный цвет
+  custom_dir: overrides
+  features:
+    - navigation.tabs       # вкладки в шапке
+    - navigation.sections   # группировка в меню
+    - toc.integrate         # оглавление в шапке
+    - search.highlight       
+    - search.share
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+  - Резюме: resume.md
+  - Достижения: achievements.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition              # красивые блоки note/warning/tip
+  - toc:
+      permalink: true
+
+plugins:
+  - search
