@@ -1,1 +1,24 @@
+.md-main {
+  background-image: url("../images/beach.jpg");  
+  background-size: cover;   #растягивает на экран
+  background-position: center;  #центрирование
+}
 
+.md-main__inner {
+  background: rgba(255,255,255,0.6); #полупрозрачный прямоугольник бэкраунда
+}
+
+.md-typeset table {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(6px);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+/* Футер в том же шрифте, что и основной текст, но чуть меньше */
+.custom-footer {
+  font-size: 1em;         /* чуть меньше основного текста */
+  text-align: center;
+  padding: 10px 0;
+}
